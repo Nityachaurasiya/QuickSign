@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+ 
+  
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(270deg, #ff9a9e, #fad0c4, #fbc2eb);
+    background-size: 600% 600%;
+    animation: gradientAnimation 10s ease infinite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .controls label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .controls input,
+  .controls select {
+    padding: 5px;
+  }
+  
+  .canvas-wrapper {
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    position: relative;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 300px;
+    cursor: crosshair;
+    background: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button#clearBtn {
+    background: #e74c3c;
+  }
+  
+  button#undoBtn,
+  button#redoBtn {
+    background: #3498db;
+  }
+  
+  button#saveBtn {
+    background: #2ecc71;
+  }
+  
+  button#savePdfBtn {
+    background: #f1c40f;
+  }
+  
+  button#retrieveBtn {
+    background: #9b59b6;
+  }
+  
+
+
+
+  .container {
+    max-width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .controls label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .controls input,
+  .controls select {
+    padding: 5px;
+  }
+  
+  .canvas-wrapper {
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    position: relative;
+  }
+  
+  canvas {
+    width: 100%;
+    height: 300px;
+    cursor: crosshair;
+    background: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button#clearBtn {
+    background: #e74c3c;
+  }
+  
+  button#undoBtn,
+  button#redoBtn {
+    background: #3498db;
+  }
+  
+  button#saveBtn {
+    background: #2ecc71;
+  }
+  
+  button#savePdfBtn {
+    background: #f1c40f;
+  }
+  
+  button#retrieveBtn {
+    background: #9b59b6;
+  }
+  
